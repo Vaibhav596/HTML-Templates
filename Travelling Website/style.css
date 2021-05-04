@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #41a1e0;
+    background: url(image1.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: -100px;
+}
+
+header{
+    background-color: rgb(97, 107, 245);
+    padding: 18px;
+    color: white;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    padding: 12px;
+    list-style-type: none;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+header h1{
+    margin:0;
+}
+.head{
+    float: left;
+}
+nav{
+    float:right;
+    margin-top: 5px;
+}
+
+showcase h2{
+    text-align: center;
+    color:black;
+    font-size: 2.7rem;
+    margin-top: 13%;
+}
+showcase p{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+#carouselExampleControls img{
+    height: 300px;
+    width: 800px;
+    margin-left: 300px;
+    margin-bottom: -100px;
+}
+.btn1{
+    margin-left: 35%;
+    padding: 0.7rem;
+    color: #fff;
+    background-color: #4267B2;
+    border:none;
+    border-radius: 1.2rem;
+    margin-top: 2%;
+}
+.btn2{
+    padding: 0.7rem;
+    color: #ffffff;
+    background-color: transparent;
+    width: auto;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 1.2rem;
+}
+footer{
+    background-color: rgb(61, 93, 196);
+    padding: 0.7rem;
+    margin-top: 10%;
+    font-family: cursive;
+}
+footer .container{
+    padding: 30px;
+}
+.lefty{
+    float: left;
+    width: 20%;
+}
+.righty{
+    float: right;
+    width: 80%;
+    margin-top: 2%;
+}
+.righty input{
+    margin-left: 0.3rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    width: 15.4rem;
+    border-radius: 2px;
+}
+.btn3{
+    padding: 12px 30px ;
+    color: #fff;
+    background-color: #01A185;
+    margin-top: 2%;
+    border: none;
+    margin-left: 2%;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 25px;
+    width: 80px;
+}

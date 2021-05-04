@@ -1,0 +1,46 @@
+body{
+    background: url(image1.webp) no-repeat center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.container{
+    width: 40%;
+    margin: auto;
+    padding: 2rem;
+    padding: 1 rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 7%;
+    background: url(image1.jpg);
+}
+hr{
+    width: 80%;
+}
+.fb{
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background-color: #426782;
+    border: none;
+    border-radius: 5px;;
+}
+a{
+    text-decoration: none;
+}
+
+.container input{
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 70%;
+}
+.container input[type=checkbox]{
+    width:auto;
+}
+form button{
+    padding: 1rem;
+    background-color: #2ecc71;
+    font-size: 3 rem;
+    width:50%;
+    border-radius: 7px;
+    border: none;
+}
